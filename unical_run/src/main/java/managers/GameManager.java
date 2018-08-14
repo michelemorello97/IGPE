@@ -1,19 +1,14 @@
 package managers;
 
-
 import core.World;
 
-public class GameManager implements Runnable{
-
+public class GameManager implements Runnable
+{
 	World world;
 
-	
-	
-	
 	public World getWorld() {
 		return world;
 	}
-
 
 	public GameManager(int w, int h)
 	{
